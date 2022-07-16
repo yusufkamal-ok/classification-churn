@@ -4,5 +4,6 @@ Problem: calssificaton
 
 Final Model: Random Forest
 
-Insights : CustServCalls -> number of calls into customer service
-           DayMins  -> average daytime minutes per month
+Insights : 
+1. CustServCalls -> number of calls into customer service
+2. DayMins  -> average daytime minutes per month
