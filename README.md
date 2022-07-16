@@ -1,6 +1,6 @@
 # classification-churn
 
-Problem: calssificaton
+Problem: Classificaton
 
 Final Model: Random Forest
 
