@@ -2,7 +2,7 @@
 
 Problem: Classificaton
 
-Final Model: Random Forest
+Model: Logistic Regression, Random Forest
 
 Insights : The most influencing factors
 1. CustServCalls -> number of calls into customer service
