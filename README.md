@@ -1,8 +1,8 @@
 # classification-churn
 
-Problem: Classificaton
+**Problem** : Classificaton
 
-Data : 
+**Data** : 
 1.  Churn : 1 if customer cancelled service, 0 if 
     - 0 : 2850
     - 1 : 483
@@ -16,7 +16,7 @@ Data :
 9.  MonthlyCharge : average monthly bill 
 10. OverageFee : largest overage fee in last 12 months
 
-Model: 
+**Model**: 
 1. Logistic Regression
     - Accuracy : 85 %
     - AUC : 56 %
@@ -24,6 +24,6 @@ Model:
     - Accuracy : 89 %
     - AUC : 71 %
 
-Insights : The most influencing factors
+**Insights** : The most influencing factors
 1. CustServCalls -> number of calls into customer service
 2. DayMins  -> average daytime minutes per month
