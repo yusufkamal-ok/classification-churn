@@ -16,14 +16,42 @@
 9.  MonthlyCharge : average monthly bill 
 10. OverageFee : largest overage fee in last 12 months
 
+**Feature Importance** : calculate the importance score for each feature
+1. Logistic Regression 
+    - ContractRenewal : -0.59
+    - DataPlan : -0.504
+    - CustServCalls : 0.67
+    - DayMins : 0.54
+2. Random Forest 
+    - CustServCalls : 0.14
+    - DayMins : 0.20
+    - MonthlyCharge : 0.17
+3. Xgboost
+    - ContractRenewal : 0.16
+    - DataPlan : 0.45
+    - CustServCalls : 0.13
+4. KNN
+    - ContractRenewal : 0.03
+    - CustServCalls : 0.04
+    - DayMins : 0.05
+    - MonthlyCharge : 0.03
+
+**SMOTE (Oversampling)**: balancing classes by creating synthetic samples from the minority class (churn = 1)
+- 0 : 2281
+- 1 : 2281
+
 **Model**: 
 1. Logistic Regression
-    - Accuracy : 85 %
-    - AUC : 56 %
+    - Accuracy : 75 %
+    - AUC : 74 %
 2. Random Forest
-    - Accuracy : 89 %
-    - AUC : 71 %
+    - Accuracy : 88 %
+    - AUC : 80 %
+3. Xgboost
+    - Accuracy : 88 %
+    - AUC : 81 %
 
 **Insights** : The most influencing factors
 1. CustServCalls -> number of calls into customer service
 2. DayMins  -> average daytime minutes per month
+3. ContractRenewal -> 1 if customer recently renewed contract, 0 if not
